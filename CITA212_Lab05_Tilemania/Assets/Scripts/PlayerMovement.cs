@@ -7,10 +7,12 @@ public class PlayerMove : MonoBehaviour
 
     Vector2 moveInput;
     Rigidbody2D rigidbody;
+    Animator animator;
 
     void Start()
     {
         rigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
     }
 
     void Update()
@@ -28,6 +30,9 @@ public class PlayerMove : MonoBehaviour
     {
         Vector2 playerVelocity = new Vector2(moveInput.x * moveSpeed, rigidbody.linearVelocity.y);
         rigidbody.linearVelocity = playerVelocity;
+
+        bool playerHasHorizontalSpeed = Mathf.Abs(rigidbody.linearVelocity.x) > Mathf.Epsilon;
+        animator.SetBool("isRunning", playerHasHorizontalSpeed);
     }
 
     void FlipSprite()
