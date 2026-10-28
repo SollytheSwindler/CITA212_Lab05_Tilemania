@@ -84,7 +84,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: -963730179
-  m_SortingLayer: 6
+  m_SortingLayer: 8
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 1857188551261513057, guid: e9e202a4d1cc3b04dbb8b1f671066b25, type: 3}
@@ -229,6 +229,7 @@ MonoBehaviour:
   moveSpeed: 7
   jumpSpeed: 20
   climbSpeed: 5
+  deathKick: {x: 5, y: 20}
 --- !u!61 &2453597660871634805
 BoxCollider2D:
   m_ObjectHideFlags: 0

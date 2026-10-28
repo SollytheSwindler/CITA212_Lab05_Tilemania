@@ -91,7 +91,7 @@ public class PlayerMove : MonoBehaviour
 
     void Die()
     {
-        if (capsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemy")))
+        if (capsuleCollider.IsTouchingLayers(LayerMask.GetMask("Enemy", "Hazard")))
         {
             isAlive = false;
             spriteRenderer.color = Color.red;
