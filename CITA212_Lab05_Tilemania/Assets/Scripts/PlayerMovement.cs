@@ -7,6 +7,8 @@ public class PlayerMove : MonoBehaviour
     [SerializeField] float jumpSpeed = 10f;
     [SerializeField] float climbSpeed = 10f;
     [SerializeField] Vector2 deathKick = new Vector2(10f, 20f);
+    [SerializeField] GameObject bullet;
+    [SerializeField] Transform gun;
 
     Vector2 moveInput;
     Rigidbody2D rigidbody;
@@ -87,6 +89,12 @@ public class PlayerMove : MonoBehaviour
 
         bool playerHasVerticalSpeed = Mathf.Abs(rigidbody.linearVelocity.y) > Mathf.Epsilon;
         animator.SetBool("isClimbing", playerHasVerticalSpeed);
+    }
+
+    void OnAttack(InputValue value)
+    {
+        if (!isAlive) return;
+        Instantiate(bullet, gun.position, transform.rotation);
     }
 
     void Die()
