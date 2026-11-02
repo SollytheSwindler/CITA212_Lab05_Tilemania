@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8482569096884890888}
   m_Layer: 11
   m_Name: Enemy (Red)
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -158,8 +158,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.15999436, y: -0.20367464}
-  m_Size: {x: 0.4786334, y: 0.62320274}
+  m_Offset: {x: 0.19090402, y: -0.25313047}
+  m_Size: {x: 0.31790137, y: 0.5242911}
   m_Direction: 0
 --- !u!95 &6619281493940480121
 Animator:

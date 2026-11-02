@@ -104,6 +104,7 @@ public class PlayerMove : MonoBehaviour
             isAlive = false;
             spriteRenderer.color = Color.red;
             animator.SetTrigger("Dying");
+            deathKick.x = -transform.localScale.x;
             rigidbody.linearVelocity = deathKick;
         }
     }
