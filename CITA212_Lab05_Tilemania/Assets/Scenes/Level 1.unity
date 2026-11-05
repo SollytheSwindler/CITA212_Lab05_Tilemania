@@ -2867,7 +2867,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2939872872481830449, guid: e59187480724484498f956ef5fa5f1d8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.35
+      value: -7.21
       objectReference: {fileID: 0}
     - target: {fileID: 2939872872481830449, guid: e59187480724484498f956ef5fa5f1d8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17042,7 +17042,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1346207293486570962, guid: 9f57aa28ab1e072448e07fd68ccee0f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.83684
+      value: -10.69684
       objectReference: {fileID: 0}
     - target: {fileID: 2170636417730548765, guid: 9f57aa28ab1e072448e07fd68ccee0f9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17050,7 +17050,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2170636417730548765, guid: 9f57aa28ab1e072448e07fd68ccee0f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.83684
+      value: -10.69684
       objectReference: {fileID: 0}
     - target: {fileID: 2228752394297568968, guid: 9f57aa28ab1e072448e07fd68ccee0f9, type: 3}
       propertyPath: Target.TrackingTarget
@@ -17130,7 +17130,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7396481888853448945, guid: 9f57aa28ab1e072448e07fd68ccee0f9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -10.83684
+      value: -10.69684
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
