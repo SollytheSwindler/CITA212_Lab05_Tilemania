@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CoinPickup
   coinPickupSFX: {fileID: 8300000, guid: e6cf53744518e2242954bb5a654c152a, type: 3}
+  pointsForCoinPickup: 100
 --- !u!82 &3148815774596404965
 AudioSource:
   m_ObjectHideFlags: 0
@@ -186,7 +187,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 128
+  Priority: 256
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
